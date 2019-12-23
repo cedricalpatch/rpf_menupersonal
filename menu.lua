@@ -99,7 +99,7 @@ Citizen.CreateThread(function()
         elseif WarMenu.IsMenuOpened('inv') then   
 
             if WarMenu.Button('Votre cheval') then
-                        SpawnHorse()
+                TriggerServerEvent('elrp:loadhorse')
             end
             WarMenu.Display()
 
