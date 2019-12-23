@@ -113,7 +113,7 @@ Citizen.CreateThread(function()
 
             WarMenu.Display()
 
-        elseif whenKeyJustPressed(keys["E"]) then 
+        elseif whenKeyJustPressed(keys["L"]) then 
             WarMenu.OpenMenu('perso')
         end
         Citizen.Wait(0)
