@@ -17,15 +17,12 @@ Citizen.CreateThread(function()
         if WarMenu.IsMenuOpened('perso') then
 
             if WarMenu.MenuButton('Inventaire', 'inv') then 
-
             end
 
             if WarMenu.MenuButton('Tenues', 'inv1') then
-
             end
 
             if WarMenu.MenuButton('Weapon', 'inv2') then
-
             end
 
             WarMenu.Display()
