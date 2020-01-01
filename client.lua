@@ -76,4 +76,25 @@ function whenKeyJustPressed(key)
     end
 end
 
+-------------------------------------- functio, blip
+
+if not AddBlipForEntity then function AddBlipForEntity(...)
+    return N_0x23f74c2fda6e7c61(...)
+end end
+-- Add blip for coord, <blipType, x, y, z>
+if not AddBlipForCoord then function AddBlipForCoord(...)
+    return N_0x554d9d53f696d002(...)
+end end
+-- Add blip for radius, <blipType, x, y, z, radius>
+if not AddBlipForRadius then function AddBlipForRadius(...)
+    return N_0x45f13b7e0a15c880(...)
+end end
+-- Add blip for area, <blipType, x, y, z, width, height, _, rotation>
+if not AddBlipForArea then function AddBlipForArea(...)
+    return N_0xec174adbcb611ecc(...)
+end end
+-- Set blip name to custom text, <blip, name>
+if not SetBlipName then function SetBlipName(blip, name)
+    N_0x9cb1a1623062f402(blip, TEXT(name))
+end end
 
