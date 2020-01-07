@@ -16,3 +16,6 @@
     Add ensure rpf_menupersonal in your server.cfg
     Enjoy!
  
+# Credits
+
+https://github.com/cedricalpatch
